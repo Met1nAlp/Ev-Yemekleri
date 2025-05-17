@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorAccentDark">#FFA000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#757575</color>
+    <color name="light_gray">#F5F5F5</color>
+
+    <!-- Gradient colors -->
+    <color name="gradientStart">#FFC107</color>
+    <color name="gradientEnd">#FF5722</color>
+
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_background">#FFFFFF</color>
+
+    <color name="gradient_start">#FFF8E1</color>
+    <color name="gradient_end">#FFECB3</color>
+    <color name="bottom_nav_start">#FF8A80</color>
+    <color name="bottom_nav_end">#F06292</color>
+    <color name="text_color">#4A2C2A</color>
+    <color name="hint_color">#A09E9E</color>
+    <color name="mavibirrenk">#B8EFF6FF</color>
+
+    <color name="title_color">#4A2C2A</color>
+    <color name="welcome_color">#FF8A80</color>
+    <color name="progress_bar_tint">#F06292</color>
+
+    <color name="image_gradient_start">#FFECB3</color>
+    <color name="image_gradient_end">#FFE0B2</color>
+    <color name="subtitle_color">#FF8A80</color>
+    <color name="fab_color">#FF8A80</color>
+
+
+    <color name="input_background">#FFFFFF</color> <!-- Arka plan rengi: Beyaz -->
+    <color name="input_stroke">#FF8A80</color> <!-- Kenarlık rengi: Yumuşak mercan kırmızısı -->
+    <color name="input_text">#4A2C2A</color> <!-- Metin rengi: Koyu kahverengi -->
+    <color name="input_hint">#A09E9E</color> <!-- Hint metin rengi: Gri -->
+    <color name="input_hint_focused">#FF8A80</color>
+
+    <color name="kirmizi">#FF0000</color>
+
+
+
+
+</resources>

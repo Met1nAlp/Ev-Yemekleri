@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bn_bar_anasayfa"
+        android:icon="@drawable/asset_anasayfa"
+        android:title="" />
+
+    <item
+        android:id="@+id/bn_bar_menu"
+        android:icon="@drawable/asset_menu"
+        android:title=""/>
+
+    <item
+        android:id="@+id/bn_bar_profil"
+        android:icon="@drawable/asset_profil"
+        android:title=""/>
+
+
+
+</menu>

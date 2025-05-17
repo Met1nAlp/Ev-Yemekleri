@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/detay_fab_begen"
+        android:title="Beğen" />
+
+    <item
+        android:id="@+id/detay_fab_yorumyap"
+        android:title="Yorum Yap" />
+
+    <item
+        android:id="@+id/detay_fab_düzenle"
+        android:title="Düzenle" />
+
+    <item
+        android:id="@+id/detay_fab_yemegisil"
+        android:title="Yemeği Sil" />
+
+</menu>

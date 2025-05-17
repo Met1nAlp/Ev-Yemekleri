@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Fragment.Detay">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/detay_imageView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/image_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Medium"
+        tools:src="@tools:sample/avatars" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/detay_scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="80dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/detay_bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detay_imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:id="@+id/detay_isim_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Lahmacun"
+                android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
+                android:textColor="#4A2C2A"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.02"
+                android:shadowColor="#40000000"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="4" />
+
+            <TextView
+                android:id="@+id/detay_malzemeleri_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Malzemeler"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="#FF8A80"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/detay_malzemeler_liste_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Et , süt "
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="#5D4037"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.01" />
+
+            <TextView
+                android:id="@+id/detay_tarif_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Tarif"
+                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
+                android:textColor="#FF8A80"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:id="@+id/detay_yapilisadimi_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Eti süte kat"
+                android:textAppearance="@style/TextAppearance.Material3.BodyMedium"
+                android:textColor="#5D4037"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.01" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/detay_floatingActionButton"
+        style="@style/Widget.Material3.FloatingActionButton.Primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/ic_menu_edit"
+        app:backgroundTint="#FF8A80"
+        app:tint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/detay_bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/detay_bottomNavigationView"
+        style="@style/Widget.Material3.BottomNavigationView.ActiveIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_nav_gradient"
+        android:padding="8dp"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bn_bar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

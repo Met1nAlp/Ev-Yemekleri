@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/baslangic">
+
+    <fragment
+        android:id="@+id/baslangic"
+        android:name="com.example.yemekvetarifleri.Fragment.Baslangic"
+        android:label="fragment_baslangic"
+        tools:layout="@layout/fragment_baslangic" />
+    <fragment
+        android:id="@+id/giris"
+        android:name="com.example.yemekvetarifleri.Fragment.Giris"
+        android:label="fragment_giris"
+        tools:layout="@layout/fragment_giris" >
+        <action
+            android:id="@+id/action_giris_to_uyeOl2"
+            app:destination="@id/uyeOl" />
+    </fragment>
+    <fragment
+        android:id="@+id/uyeOl"
+        android:name="com.example.yemekvetarifleri.Fragment.UyeOl"
+        android:label="fragment_uye_ol"
+        tools:layout="@layout/fragment_uye_ol" >
+        <action
+            android:id="@+id/action_uyeOl_to_giris"
+            app:destination="@id/giris" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.yemekvetarifleri.Fragment.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu_to_anaSayfa"
+            app:destination="@id/anaSayfa" />
+    </fragment>
+    <fragment
+        android:id="@+id/detay"
+        android:name="com.example.yemekvetarifleri.Fragment.Detay"
+        android:label="fragment_detay"
+        tools:layout="@layout/fragment_detay" >
+        <action
+            android:id="@+id/action_detay_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/profil"
+        android:name="com.example.yemekvetarifleri.Fragment.Profil"
+        android:label="fragment_profil"
+        tools:layout="@layout/fragment_profil" >
+        <action
+            android:id="@+id/action_profil_to_anaSayfa"
+            app:destination="@id/anaSayfa" />
+    </fragment>
+    <fragment
+        android:id="@+id/anaSayfa"
+        android:name="com.example.yemekvetarifleri.Fragment.AnaSayfa"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" />
+</navigation>

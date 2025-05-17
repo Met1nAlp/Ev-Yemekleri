@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "215446744732",
+    "project_id": "yemekler-3d316",
+    "storage_bucket": "yemekler-3d316.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215446744732:android:a3cf3450212daa5a46c759",
+        "android_client_info": {
+          "package_name": "com.example.evyemekleri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcW0eiAWdZts9UrkGurbPqp9I3RO2ciE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215446744732:android:25bb26b2ef10af9c46c759",
+        "android_client_info": {
+          "package_name": "com.example.yemekvetarifleri"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvcW0eiAWdZts9UrkGurbPqp9I3RO2ciE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
